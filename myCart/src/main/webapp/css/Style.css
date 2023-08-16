@@ -1,0 +1,95 @@
+.admin .card{
+	border:1px solid black;
+} 
+
+.admin .card:hover{
+	background-color: #dcdde1 !important;
+	cursor: pointer;
+} 
+
+.custom-bg {
+	background-color:#6c5ce7 !important;
+} 
+	
+
+.bg-color{	
+	background:#dfe6e9 !important;
+} 
+/* .list-group-item.active{
+	background:#6c5ce7 !important;
+	border-color: #6c5ce7 !important;
+} */
+
+.card-footer{
+	position: absolute !important;
+    bottom: 0px !important;
+}
+.hhhh{
+	height: 450px !important;
+}
+/* .discount-label{
+	font-size: 10px !important;
+	font-style: italic !important;
+}    */ 
+.product-card:hover {
+	background:#dfe6e9 !important;
+	cursor: pointer !important;
+}
+
+.checkout{
+	text-decoration: none;
+}
+
+.checkout-body:hover{
+	background:#f5f6fa !important;
+	cursor: pointer;
+}
+
+/* TOSTE CSS */
+ #toste{
+            min-width: 300px;
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            background-color: #6c5ce7;
+            color: rgb(255, 255, 255);
+            padding: 8px;
+            text-align: center;
+            margin-left: -100px;
+            border-radius: 10px;
+            z-index: 1;   /* Bcz sabse upar rhe layer ke*/
+            font-size: large;
+            visibility: hidden;
+            box-shadow: 0px 0px 20px #6c5ce7;
+        }
+
+        #toste.display{
+            visibility: visible;
+            animation: fadeIn 0.5s, fadeOut 0.5s  2.5s;
+
+        }
+        @keyframes fadeIn{
+            from{
+                bottom: 0px;
+                opacity: 0;
+            }
+            to{
+                bottom: 30px;
+                opacity: 1;
+            }
+        
+        }
+        @keyframes fadeOut{
+            from{
+                bottom: 30px;
+                opacity: 1;
+            }
+            to{
+                bottom: 0px;
+                opacity: 0;
+            }
+        }
+
+
+
+
